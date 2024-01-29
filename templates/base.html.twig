@@ -1,17 +1,75 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        <link rel= "stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
-        {% block stylesheets %}
-        {% endblock %}
+<!-- templates/bas.html.twig -->
 
-        {% block javascripts %}
-{% block importmap %}{{ importmap('app') }}{% endblock %}
-        {% endblock %}
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}E-Portfolio{% endblock %}</title>
+
+    <!-- Inclure Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyW8+Q6RQ9vJ7MOhdMhL8KpNjp8TfJw31W"
+        crossorigin="anonymous">
+
+    <!-- Inclure le thème Bootswatch Lux -->
+    <link rel="stylesheet" href="https://bootswatch.com/5/darkly/bootstrap.min.css">
+
+    <!-- Ajouter du style personnalisé -->
+    <style>
+        /* Votre style existant ici */
+    </style>
+</head>
+
+<body>
+    <div class="container mt-3">
+        <h1>E-Portfolio</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="{{ path('Accueil') }}">E-Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ path('cv') }}">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ path('Portfolio') }}">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ path('SavoirPlus') }}">En savoir plus</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
         {% block body %}{% endblock %}
-    </body>
+    </div>
+
+    <!-- Pied de page -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; {% block copyright %}{{ "now"|date("Y") }}{% endblock %} E-Portfolio. Tous droits réservés.</p>
+        <p>Adresse: 15 Bis rue Fontenille| Email: axellx@outlook.fr| Téléphone: 0649615316</p>
+    </footer>
+
+    <!-- Inclure Bootstrap JS et Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCO9jq2k4YJsJsXn1CqjSef6YbHvTbO9UnQbYEKr8RNE+mbYUAl66fwMlJe+mv"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyW8+Q6RQ9vJ7MOhdMhL8KpNjp8TfJw31W"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
