@@ -85,31 +85,79 @@ class __TwigTemplate_9690c42d074a62303e03df65ddf9cea4 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
-        echo "    <div style=\"margin-left: 20px;\"> <!-- Ajustez la marge selon vos préférences -->
+        echo "    <div style=\"margin-left: 10px;\"> <!-- Ajustez la marge selon vos préférences -->
         <h1 style=\"text-align: left; font-size: 2.5em; color: #ffffff; font-family: 'Arial', sans-serif;\">Portfolio</h1>
-        <p style=\"text-align: left; font-size: 1.2em; color: #ffffff; margin-top: 20px;\">Bienvenue sur mon portfolio où je partage mes compétences et expériences :</p>
+        <p style=\"text-align: left; font-size: 1.2em; color: #ffffff; margin-top: 10px;\">Bienvenue sur mon portfolio où je partage mes compétences et expériences :</p>
         
         <!-- Ajoutez ici vos compétences avec des barres de progression -->
         <ul style=\"list-style: none; padding: 0;\">
-            <li style=\"margin-top: 20px;\">
-                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">CRM Saleforce</span>
+            <li style=\"margin-top: 10px;\">
+                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">• Configurer les fonctions de base du réseau local (Ethernet, IPv4, intro IPv6, commutation, VLANs, routage statique)
+</span>
+                <div class=\"progress\" style=\"margin-top: 5px;\">
+                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 70%; background-color: #3498db;\" aria-valuenow=\"70\" aria-valuemin=\"0\" aria-valuemax=\"100\">70%</div>
+                </div>
+            </li>
+            <li style=\"margin-top: 10px;\">
+                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">• Connaître l’architecture et les technologies d’un site Web (Langages et outils : HTML, CSS, CMS, JS, responsive)</span>
+                <div class=\"progress\" style=\"margin-top: 10px;\">
+                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 80%; background-color: #3498db;\" aria-valuenow=\"80\" aria-valuemin=\"0\" aria-valuemax=\"100\">80%</div>
+                </div>
+            </li>
+            <li style=\"margin-top: 10px;\">
+                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">• Installer un poste client (et le sécuriser: antivirus, parefeu, comptes, ...)</span>
                 <div class=\"progress\" style=\"margin-top: 10px;\">
                     <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 70%; background-color: #3498db;\" aria-valuenow=\"70\" aria-valuemin=\"0\" aria-valuemax=\"100\">70%</div>
                 </div>
             </li>
-            <li style=\"margin-top: 20px;\">
-                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">Suite Adobe</span>
+            <li style=\"margin-top: 10px;\">
+                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">• Comprendre les principes et standards du codage de l’information</span>
                 <div class=\"progress\" style=\"margin-top: 10px;\">
-                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 85%; background-color: #3498db;\" aria-valuenow=\"85\" aria-valuemin=\"0\" aria-valuemax=\"100\">85%</div>
+                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 80%; background-color: #3498db;\" aria-valuenow=\"80\" aria-valuemin=\"0\" aria-valuemax=\"100\">80%</div>
                 </div>
             </li>
-            <li style=\"margin-top: 20px;\">
-                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">SAGE (facturation)</span>
+            <li style=\"margin-top: 10px;\">
+                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">• Savoir identifier les dysfonctionnements du réseau local</span>
                 <div class=\"progress\" style=\"margin-top: 10px;\">
-                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 95%; background-color: #3498db;\" aria-valuenow=\"95\" aria-valuemin=\"0\" aria-valuemax=\"100\">95%</div>
+                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 75%; background-color: #3498db;\" aria-valuenow=\"75\" aria-valuemin=\"0\" aria-valuemax=\"100\">75%</div>
                 </div>
             </li>
-            <!-- Ajoutez d'autres compétences ici -->
+            <li style=\"margin-top: 10px;\">
+                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">• Maîtriser les lois fondamentales de l’électricité afin d’intervenir sur des équipements de réseaux et télécommunications (habilitation électrique)</span>
+                <div class=\"progress\" style=\"margin-top: 10px;\">
+                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 60%; background-color: #3498db;\" aria-valuenow=\"60\" aria-valuemin=\"0\" aria-valuemax=\"100\">60%</div>
+                </div>
+            </li>
+            <li style=\"margin-top: 10px;\">
+                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">• Lire, exécuter, corriger et modifier un programme (programmes simples type scripts, algorithme inclus)</span>
+                <div class=\"progress\" style=\"margin-top: 10px;\">
+                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 70%; background-color: #3498db;\" aria-valuenow=\"70\" aria-valuemin=\"0\" aria-valuemax=\"100\">70%</div>
+                </div>
+            </li>
+            <li style=\"margin-top: 10px;\">
+                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">• Traduire un algorithme, dans un langage et pour un environnement donné (peut inclure plusieurs, y compris objet)</span>
+                <div class=\"progress\" style=\"margin-top: 10px;\">
+                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 80%; background-color: #3498db;\" aria-valuenow=\"80\" aria-valuemin=\"0\" aria-valuemax=\"100\">80%</div>
+                </div>
+            </li>
+            <li style=\"margin-top: 10px;\">
+                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">• Mesurer et analyser les signaux (audio et vidéo, ordres de grandeurs, comprendre la dualité temps/fréquence et utiliser des équipements d’analyse spectrale, avec projets
+autour de la chaîne d’acquisition/traitement)</span>
+                <div class=\"progress\" style=\"margin-top: 10px;\">
+                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 60%; background-color: #3498db;\" aria-valuenow=\"60\" aria-valuemin=\"0\" aria-valuemax=\"100\">60%</div>
+                </div>
+            </li>
+            <li style=\"margin-top: 10px;\">
+                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">• Déployer des supports de transmission (traitement au choix de la propagation, câblage LAN, fibre optique, ou une introduction à l’IoT)</span>
+                <div class=\"progress\" style=\"margin-top: 10px;\">
+                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 90%; background-color: #3498db;\" aria-valuenow=\"90\" aria-valuemin=\"0\" aria-valuemax=\"100\">90%</div>
+                </div>
+            </li>
+            <li style=\"margin-top: 10px;\">
+                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">• Caractériser des systèmes de transmissions élémentaires et découvrir la modélisation mathématique de leur fonctionnement</span>
+                <div class=\"progress\" style=\"margin-top: 10px;\">
+                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 50%; background-color: #3498db;\" aria-valuenow=\"50\" aria-valuemin=\"0\" aria-valuemax=\"100\">50%</div>
+                </div>
         </ul>
     </div>
 ";
@@ -152,31 +200,79 @@ class __TwigTemplate_9690c42d074a62303e03df65ddf9cea4 extends Template
 {% block title %}Portfolio{% endblock %}
 
 {% block body %}
-    <div style=\"margin-left: 20px;\"> <!-- Ajustez la marge selon vos préférences -->
+    <div style=\"margin-left: 10px;\"> <!-- Ajustez la marge selon vos préférences -->
         <h1 style=\"text-align: left; font-size: 2.5em; color: #ffffff; font-family: 'Arial', sans-serif;\">Portfolio</h1>
-        <p style=\"text-align: left; font-size: 1.2em; color: #ffffff; margin-top: 20px;\">Bienvenue sur mon portfolio où je partage mes compétences et expériences :</p>
+        <p style=\"text-align: left; font-size: 1.2em; color: #ffffff; margin-top: 10px;\">Bienvenue sur mon portfolio où je partage mes compétences et expériences :</p>
         
         <!-- Ajoutez ici vos compétences avec des barres de progression -->
         <ul style=\"list-style: none; padding: 0;\">
-            <li style=\"margin-top: 20px;\">
-                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">CRM Saleforce</span>
+            <li style=\"margin-top: 10px;\">
+                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">• Configurer les fonctions de base du réseau local (Ethernet, IPv4, intro IPv6, commutation, VLANs, routage statique)
+</span>
+                <div class=\"progress\" style=\"margin-top: 5px;\">
+                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 70%; background-color: #3498db;\" aria-valuenow=\"70\" aria-valuemin=\"0\" aria-valuemax=\"100\">70%</div>
+                </div>
+            </li>
+            <li style=\"margin-top: 10px;\">
+                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">• Connaître l’architecture et les technologies d’un site Web (Langages et outils : HTML, CSS, CMS, JS, responsive)</span>
+                <div class=\"progress\" style=\"margin-top: 10px;\">
+                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 80%; background-color: #3498db;\" aria-valuenow=\"80\" aria-valuemin=\"0\" aria-valuemax=\"100\">80%</div>
+                </div>
+            </li>
+            <li style=\"margin-top: 10px;\">
+                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">• Installer un poste client (et le sécuriser: antivirus, parefeu, comptes, ...)</span>
                 <div class=\"progress\" style=\"margin-top: 10px;\">
                     <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 70%; background-color: #3498db;\" aria-valuenow=\"70\" aria-valuemin=\"0\" aria-valuemax=\"100\">70%</div>
                 </div>
             </li>
-            <li style=\"margin-top: 20px;\">
-                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">Suite Adobe</span>
+            <li style=\"margin-top: 10px;\">
+                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">• Comprendre les principes et standards du codage de l’information</span>
                 <div class=\"progress\" style=\"margin-top: 10px;\">
-                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 85%; background-color: #3498db;\" aria-valuenow=\"85\" aria-valuemin=\"0\" aria-valuemax=\"100\">85%</div>
+                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 80%; background-color: #3498db;\" aria-valuenow=\"80\" aria-valuemin=\"0\" aria-valuemax=\"100\">80%</div>
                 </div>
             </li>
-            <li style=\"margin-top: 20px;\">
-                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">SAGE (facturation)</span>
+            <li style=\"margin-top: 10px;\">
+                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">• Savoir identifier les dysfonctionnements du réseau local</span>
                 <div class=\"progress\" style=\"margin-top: 10px;\">
-                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 95%; background-color: #3498db;\" aria-valuenow=\"95\" aria-valuemin=\"0\" aria-valuemax=\"100\">95%</div>
+                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 75%; background-color: #3498db;\" aria-valuenow=\"75\" aria-valuemin=\"0\" aria-valuemax=\"100\">75%</div>
                 </div>
             </li>
-            <!-- Ajoutez d'autres compétences ici -->
+            <li style=\"margin-top: 10px;\">
+                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">• Maîtriser les lois fondamentales de l’électricité afin d’intervenir sur des équipements de réseaux et télécommunications (habilitation électrique)</span>
+                <div class=\"progress\" style=\"margin-top: 10px;\">
+                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 60%; background-color: #3498db;\" aria-valuenow=\"60\" aria-valuemin=\"0\" aria-valuemax=\"100\">60%</div>
+                </div>
+            </li>
+            <li style=\"margin-top: 10px;\">
+                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">• Lire, exécuter, corriger et modifier un programme (programmes simples type scripts, algorithme inclus)</span>
+                <div class=\"progress\" style=\"margin-top: 10px;\">
+                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 70%; background-color: #3498db;\" aria-valuenow=\"70\" aria-valuemin=\"0\" aria-valuemax=\"100\">70%</div>
+                </div>
+            </li>
+            <li style=\"margin-top: 10px;\">
+                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">• Traduire un algorithme, dans un langage et pour un environnement donné (peut inclure plusieurs, y compris objet)</span>
+                <div class=\"progress\" style=\"margin-top: 10px;\">
+                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 80%; background-color: #3498db;\" aria-valuenow=\"80\" aria-valuemin=\"0\" aria-valuemax=\"100\">80%</div>
+                </div>
+            </li>
+            <li style=\"margin-top: 10px;\">
+                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">• Mesurer et analyser les signaux (audio et vidéo, ordres de grandeurs, comprendre la dualité temps/fréquence et utiliser des équipements d’analyse spectrale, avec projets
+autour de la chaîne d’acquisition/traitement)</span>
+                <div class=\"progress\" style=\"margin-top: 10px;\">
+                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 60%; background-color: #3498db;\" aria-valuenow=\"60\" aria-valuemin=\"0\" aria-valuemax=\"100\">60%</div>
+                </div>
+            </li>
+            <li style=\"margin-top: 10px;\">
+                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">• Déployer des supports de transmission (traitement au choix de la propagation, câblage LAN, fibre optique, ou une introduction à l’IoT)</span>
+                <div class=\"progress\" style=\"margin-top: 10px;\">
+                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 90%; background-color: #3498db;\" aria-valuenow=\"90\" aria-valuemin=\"0\" aria-valuemax=\"100\">90%</div>
+                </div>
+            </li>
+            <li style=\"margin-top: 10px;\">
+                <span class=\"compétence\" style=\"font-size: 1.2em; color: #ffffff;\">• Caractériser des systèmes de transmissions élémentaires et découvrir la modélisation mathématique de leur fonctionnement</span>
+                <div class=\"progress\" style=\"margin-top: 10px;\">
+                    <div class=\"progress-bar\" role=\"progressbar\" style=\"width: 50%; background-color: #3498db;\" aria-valuenow=\"50\" aria-valuemin=\"0\" aria-valuemax=\"100\">50%</div>
+                </div>
         </ul>
     </div>
 {% endblock %}
